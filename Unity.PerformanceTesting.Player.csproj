@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5CF0424B-FEAB-C2BF-1C70-DBFA51577961}</ProjectGuid>
+    <ProjectGuid>{548EB381-C90E-25B0-0EDF-F923FDBB83BE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.PerformanceTesting</AssemblyName>
@@ -887,11 +887,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.Player.csproj">
-      <Project>{6A546258-C9B8-A8CC-185C-BCEFFBEBDD3B}</Project>
+      <Project>{250292F7-C4D2-8A8A-ED1A-74E537591681}</Project>
       <Name>UnityEngine.TestRunner.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{32DCEC92-2D9C-836D-8C31-9B9D9C7A6011}</Project>
+      <Project>{F502A06E-F649-2C36-3771-7159B0EAC675}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

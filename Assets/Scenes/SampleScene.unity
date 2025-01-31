@@ -338,7 +338,7 @@ MonoBehaviour:
   startPlaced: {fileID: 0}
   placedOffset: {fileID: 210107730}
   shapeType: 0
-  placeRadius: 0.05
+  placeRadius: 0.1
   placeSize: {x: 0.1, y: 0.1, z: 0.1}
   shapeOffset: {x: 0, y: -0.07, z: 0}
   grabbablePlacePoint: 1
@@ -380,6 +380,993 @@ MonoBehaviour:
   OnStopHighlight:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &361274903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 361274911}
+  - component: {fileID: 361274910}
+  - component: {fileID: 361274909}
+  - component: {fileID: 361274908}
+  - component: {fileID: 361274907}
+  - component: {fileID: 361274906}
+  - component: {fileID: 361274905}
+  - component: {fileID: 361274904}
+  m_Layer: 0
+  m_Name: PistolAmmo (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &361274904
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361274903}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08253344, y: 0.16500223, z: 0.026303519}
+  m_Center: {x: 0.014180879, y: 0.016212296, z: -0.0009696591}
+--- !u!114 &361274905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361274903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5143e42808965614a9bb64f4880aaf33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoreMe: 0
+  rightPose:
+    rotationOffset: {x: 0, y: 0, z: 0}
+    posePositions: []
+    poseRotations: []
+    handOffset: {x: 0.012800015, y: 0.01666673, z: -0.017466657}
+    localQuaternionOffset: {x: 0.00000006294383, y: 0.7101853, z: 0.00000006349551, w: 0.70401484}
+    globalHandScale: {x: 0.85000014, y: 0.85, z: 0.85000014}
+    fingerPoses:
+    - poseRelativeMatrix:
+      - e00: -0.824165
+        e01: 0.5595984
+        e02: 0.087188676
+        e03: 0.022819437
+        e10: 0.11519819
+        e11: 0.014910331
+        e12: 0.99323064
+        e13: 0.008143769
+        e20: 0.5545103
+        e21: 0.8286301
+        e22: -0.07675312
+        e23: 0.018977469
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.16444762
+        e01: 1.0848657
+        e02: 0.018593436
+        e03: 0.042893495
+        e10: -0.98605585
+        e11: 0.18129279
+        e12: -0.025364598
+        e13: -0.000008254909
+        e20: -0.02552745
+        e21: -0.014163131
+        e22: 1.0995508
+        e23: 0.0000017239365
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.47169608
+        e01: 0.8816715
+        e02: -0.012622156
+        e03: 0.03394752
+        e10: -0.88165295
+        e11: 0.47136497
+        e12: -0.022446547
+        e13: 0.0000146224265
+        e20: -0.013840927
+        e21: 0.021716185
+        e22: 0.9996687
+        e23: 0.0000026565679
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 1.0000006
+        e01: -0.0000000114511245
+        e02: 0.000000027222843
+        e03: 0.026899697
+        e10: -0.00000012724522
+        e11: 1.0000007
+        e12: 0.000000012734445
+        e13: -0.0044997893
+        e20: -0.000000041645386
+        e21: -0.000000037678983
+        e22: 1.0000004
+        e23: 0.000000019011956
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      localRotations:
+      - {x: 0.24376112, y: 0.69206727, z: 0.65812266, w: -0.16881359}
+      - {x: 0.003336445, y: 0.013901997, z: -0.6462067, w: 0.76302856}
+      - {x: 0.012592005, y: 0.0005914467, z: -0.49641043, w: 0.8679964}
+      - {x: 0.000000022692683, y: 0.000000033095866, z: 0.000000034105057, w: 0.99999994}
+    - poseRelativeMatrix:
+      - e00: -0.73564905
+        e01: 0.66564
+        e02: 0.1254749
+        e03: 0.029140951
+        e10: 0.057122704
+        e11: -0.12361604
+        e12: 0.99068445
+        e13: -0.018360522
+        e20: 0.6749501
+        e21: 0.73596406
+        e22: 0.052915096
+        e23: 0.020264393
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.011949842
+        e01: 1.0999221
+        e02: -0.000787665
+        e03: 0.046455685
+        e10: -0.9998766
+        e11: 0.013135783
+        e12: -0.011266871
+        e13: 0.00000021647053
+        e20: -0.01023346
+        e21: 0.00092220964
+        e22: 1.0999422
+        e23: 0.000007070458
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.54357415
+        e01: 0.8364026
+        e02: 0.07041159
+        e03: 0.03651108
+        e10: -0.838738
+        e11: 0.5444874
+        e12: 0.0071888547
+        e13: 0.000012983923
+        e20: -0.03232545
+        e21: -0.06296458
+        e22: 0.9974928
+        e23: 0.000010408816
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 1.0000004
+        e01: 0.00000004300069
+        e02: -0.000000042436515
+        e03: 0.034599915
+        e10: -0.000000108482745
+        e11: 1.0000006
+        e12: -0.00000004930339
+        e13: -0.009799939
+        e20: 0.000000021651413
+        e21: -0.000000019395145
+        e22: 1.0000004
+        e23: 0.00000010110035
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      localRotations:
+      - {x: 0.28941837, y: 0.6243232, z: 0.6914081, w: -0.22002822}
+      - {x: 0.0038945682, y: 0.003344991, z: -0.7028612, w: 0.71130854}
+      - {x: -0.017858563, y: 0.026838545, z: -0.45736048, w: 0.8886969}
+      - {x: 0.00000004438391, y: -0.000000011014121, z: -0.000000009789883, w: 1.0000001}
+    - poseRelativeMatrix:
+      - e00: -0.7114358
+        e01: 0.6515715
+        e02: 0.2632751
+        e03: 0.023299951
+        e10: 0.05193083
+        e11: -0.32486674
+        e12: 0.94433296
+        e13: -0.041670002
+        e20: 0.7008298
+        e21: 0.6855045
+        e22: 0.1972855
+        e23: 0.016087255
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: -0.20045409
+        e01: 1.0726925
+        e02: 0.1034997
+        e03: 0.04434406
+        e10: -0.96674293
+        e11: -0.19944964
+        e12: -0.19840561
+        e13: -0.000012179056
+        e20: -0.15883064
+        e21: -0.13982886
+        e22: 1.0769976
+        e23: 0.0000071560694
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.6738239
+        e01: 0.73807126
+        e02: 0.034828328
+        e03: 0.034772888
+        e10: -0.73762566
+        e11: 0.6691639
+        e12: 0.090161555
+        e13: 0.000019273375
+        e20: 0.04323972
+        e21: -0.08644323
+        e22: 0.99531806
+        e23: 0.0000031091026
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 1.0000007
+        e01: -0.00000008172296
+        e02: -0.000000028543589
+        e03: 0.030999951
+        e10: -0.000000070496476
+        e11: 1.0000006
+        e12: 0.000000099169256
+        e13: -0.0065699625
+        e20: 0.000000012005204
+        e21: 0.000000042846168
+        e22: 1.0000004
+        e23: -0.0049997633
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      localRotations:
+      - {x: 0.32254672, y: 0.54527134, z: 0.74725974, w: -0.20061322}
+      - {x: 0.021067275, y: 0.10005982, z: -0.76825446, w: 0.63192505}
+      - {x: -0.047768075, y: -0.0026137508, z: -0.38195196, w: 0.9229432}
+      - {x: -0.00000001426626, y: -0.000000017609475, z: -0.0000000152816, w: 1}
+    - poseRelativeMatrix:
+      - e00: -0.6524649
+        e01: 0.7347349
+        e02: 0.18561807
+        e03: 0.01623377
+        e10: -0.04063287
+        e11: -0.2785032
+        e12: 0.95957524
+        e13: -0.060445327
+        e20: 0.7567287
+        e21: 0.61854726
+        e22: 0.21156834
+        e23: 0.00861284
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: -0.20057768
+        e01: 1.0773163
+        e02: 0.026660318
+        e03: 0.03575846
+        e10: -0.9789088
+        e11: -0.21931681
+        e12: -0.049016435
+        e13: 0.0000011281342
+        e20: -0.038809318
+        e21: -0.035929486
+        e22: 1.0985844
+        e23: 0.000005124631
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.40710813
+        e01: 0.9130489
+        e02: -0.024594098
+        e03: 0.029865963
+        e10: -0.9128299
+        e11: 0.40764996
+        e12: 0.023752121
+        e13: 0.0000133751355
+        e20: 0.031712472
+        e21: 0.01278054
+        e22: 0.9994154
+        e23: 0.0000071580184
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 1.0000006
+        e01: -0.00000011033875
+        e02: 0.000000013242667
+        e03: 0.027799489
+        e10: 0.000000010665062
+        e11: 1.0000002
+        e12: 0.00000001739205
+        e13: -0.0050998623
+        e20: -0.00000007536458
+        e21: -0.000000015346657
+        e22: 1.0000002
+        e23: -0.0042998516
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      localRotations:
+      - {x: 0.32189676, y: 0.53907174, z: 0.7318705, w: -0.26485834}
+      - {x: 0.0047045927, y: 0.024930744, z: -0.77438194, w: 0.6322098}
+      - {x: -0.0041675344, y: -0.015771635, z: -0.52880955, w: 0.8485838}
+      - {x: -0.000000040415934, y: 0.000000012608671, z: 0.00000007834521, w: 1}
+    - poseRelativeMatrix:
+      - e00: -0.6314526
+        e01: 0.0385104
+        e02: -0.7744576
+        e03: 0.0030385887
+        e10: 0.5179052
+        e11: 0.76427174
+        e12: -0.38426912
+        e13: 0.004342535
+        e20: 0.57709795
+        e21: -0.6437432
+        e22: -0.5025466
+        e23: -0.063931264
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.8047394
+        e01: 0.67292035
+        e02: -0.10939845
+        e03: 0.039109424
+        e10: -0.6987938
+        e11: 0.73110175
+        e12: 0.24884968
+        e13: -0.0022509994
+        e20: 0.27218133
+        e21: -0.11255679
+        e22: 0.96234417
+        e23: 0.0019041998
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.28177002
+        e01: 0.95842165
+        e02: 0.04510606
+        e03: 0.040633015
+        e10: -0.95414424
+        e11: 0.28484485
+        e12: -0.0920484
+        e13: -0.0000031523277
+        e20: -0.10106909
+        e21: -0.017101176
+        e22: 0.9947329
+        e23: -0.0000026309665
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 1.0000005
+        e01: -0.00000009333537
+        e02: 0.000000023756614
+        e03: 0.029174278
+        e10: -0.0000000369431
+        e11: 1.0000006
+        e12: -0.000000055690712
+        e13: -0.00675797
+        e20: 0.00000013564996
+        e21: 0.000000116049264
+        e22: 1.0000004
+        e23: -0.0035000048
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      localRotations:
+      - {x: 0.16341802, y: 0.85121554, z: -0.30192482, w: -0.3969486}
+      - {x: -0.097641245, y: -0.09640648, z: -0.35343382, w: 0.9253414}
+      - {x: -0.021476727, y: -0.047736436, z: 0.60724974, w: -0.7927849}
+      - {x: 0.000000013561673, y: -0.0000000014776553, z: 0.00000009395354, w: 1.0000001}
+    poseID:
+      fingerLengths:
+      - 0.00074386003
+      - 0.0012932001
+      - 0.0010291649
+      - 0.00081734
+      - 0.0009090537
+  rightPoseSet: 1
+  leftPose:
+    rotationOffset: {x: 0, y: 0, z: 0}
+    posePositions: []
+    poseRotations: []
+    handOffset: {x: 0.0042666583, y: -0.000000004863742, z: 0.027200017}
+    localQuaternionOffset: {x: 0.000000056758644, y: 0.772648, z: 0.000000069080116, w: 0.6348347}
+    globalHandScale: {x: -0.85, y: 0.85, z: 0.85}
+    fingerPoses:
+    - poseRelativeMatrix:
+      - e00: -0.68758285
+        e01: 0.725079
+        e02: 0.03859983
+        e03: 0.022819405
+        e10: 0.105365366
+        e11: 0.047036797
+        e12: 0.99332047
+        e13: 0.008143608
+        e20: 0.71842027
+        e21: 0.6870576
+        e22: -0.10873978
+        e23: 0.018977448
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.38373324
+        e01: 1.0156536
+        e02: 0.01655105
+        e03: 0.042893764
+        e10: -0.9230336
+        e11: 0.42239714
+        e12: -0.02592094
+        e13: -0.000008403024
+        e20: -0.027535385
+        e21: -0.005330454
+        e22: 1.0995703
+        e23: 0.0000016945902
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.67035335
+        e01: 0.74193484
+        e02: -0.012623284
+        e03: 0.033947736
+        e10: -0.7419969
+        e11: 0.6700276
+        e12: -0.022446109
+        e13: 0.000014666054
+        e20: -0.008195658
+        e21: 0.024413232
+        e22: 0.99966854
+        e23: 0.0000025230536
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 1.0000002
+        e01: -0.000000035327158
+        e02: 0.000000007656028
+        e03: 0.026899867
+        e10: -0.00000008471735
+        e11: 1.0000001
+        e12: -0.000000019479453
+        e13: -0.0044997777
+        e20: 0.000000013878363
+        e21: -0.000000026065427
+        e22: 1.0000004
+        e23: -0.00000012418758
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      localRotations:
+      - {x: -0.3058267, y: 0.6788519, z: 0.6188309, w: 0.25035664}
+      - {x: 0.005626232, y: -0.012798605, z: 0.55495, w: 0.83176625}
+      - {x: 0.012567258, y: 0.0009861576, z: 0.3841349, w: 0.92319095}
+      - {x: 0.000000031595082, y: -0.000000024635009, z: -0.000000059167817, w: 1}
+    - poseRelativeMatrix:
+      - e00: -0.6014838
+        e01: 0.7923755
+        e02: 0.10177385
+        e03: 0.02914093
+        e10: 0.03381931
+        e11: -0.10202552
+        e12: 0.9942066
+        e13: -0.018360682
+        e20: 0.7981689
+        e21: 0.60144156
+        e22: 0.03456936
+        e23: 0.020264374
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.25454682
+        e01: 1.0637631
+        e02: -0.0028894818
+        e03: 0.046455726
+        e10: -0.96701366
+        e11: 0.27995694
+        e12: -0.011633587
+        e13: 0.00000019105241
+        e20: -0.009558992
+        e21: 0.00575543
+        e22: 1.0999349
+        e23: 0.000006770373
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.72797424
+        e01: 0.68197924
+        e02: 0.07041089
+        e03: 0.036511306
+        e10: -0.6840281
+        e11: 0.7294202
+        e12: 0.007188392
+        e13: 0.00001286769
+        e20: -0.046456836
+        e21: -0.053395946
+        e22: 0.9974926
+        e23: 0.000010078483
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 1.0000005
+        e01: 0.00000023021803
+        e02: -0.000000023857833
+        e03: 0.03459983
+        e10: 0.000000103088254
+        e11: 1.0000006
+        e12: 0.000000025193808
+        e13: -0.009799542
+        e20: -0.000000047300716
+        e21: 0.00000002021832
+        e22: 1.0000005
+        e23: -0.00000012131218
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      localRotations:
+      - {x: -0.34131074, y: 0.605163, z: 0.6591812, w: 0.28768888}
+      - {x: 0.0049900403, y: -0.0021882742, z: 0.6105095, w: 0.7919902}
+      - {x: -0.01444935, y: -0.028817097, z: 0.34548578, w: 0.93787014}
+      - {x: 0.00000003480763, y: -0.00000002083807, z: 0.000000094584045, w: 1}
+    - poseRelativeMatrix:
+      - e00: -0.56487316
+        e01: 0.78261876
+        e02: 0.26158354
+        e03: 0.023299951
+        e10: -0.0015573055
+        e11: -0.31801316
+        e12: 0.9480849
+        e13: -0.041670166
+        e20: 0.8251763
+        e21: 0.53514063
+        e22: 0.18085614
+        e23: 0.016087215
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.053641554
+        e01: 1.0944064
+        e02: 0.09377705
+        e03: 0.044343878
+        e10: -0.9847347
+        e11: 0.07354927
+        e12: -0.17677845
+        e13: -0.000012179594
+        e20: -0.16559067
+        e21: -0.08286301
+        e22: 1.0816449
+        e23: 0.000007199169
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.82978606
+        e01: 0.5575881
+        e02: 0.02345693
+        e03: 0.034772974
+        e10: -0.5564242
+        e11: 0.8233569
+        e12: 0.11169891
+        e13: 0.000019296434
+        e20: 0.042968478
+        e21: -0.1057384
+        e22: 0.99346524
+        e23: 0.0000030319113
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 1.0000002
+        e01: -0.000000110191024
+        e02: -0.0000000036341368
+        e03: 0.030999944
+        e10: -0.00000019860862
+        e11: 1.0000006
+        e12: 0.0000000044688604
+        e13: -0.006569811
+        e20: -0.00000003507675
+        e21: 0.000000050478903
+        e22: 1.0000002
+        e23: -0.0049999547
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      localRotations:
+      - {x: -0.37824717, y: 0.5162374, z: 0.71828663, w: 0.27293292}
+      - {x: 0.029431306, y: -0.08647026, z: 0.6824238, w: 0.7252273}
+      - {x: -0.05674197, y: 0.004900854, z: 0.27091187, w: 0.9609179}
+      - {x: 0.000000039862574, y: -0.000000024928735, z: -0.000000019245553, w: 1}
+    - poseRelativeMatrix:
+      - e00: -0.4935112
+        e01: 0.8519018
+        e02: 0.1752426
+        e03: 0.016233746
+        e10: -0.12053444
+        e11: -0.26653582
+        e12: 0.9562583
+        e13: -0.060445487
+        e20: 0.8613466
+        e21: 0.45080146
+        e22: 0.23422223
+        e23: 0.008612803
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.05295462
+        e01: 1.0982757
+        e02: 0.019973233
+        e03: 0.035758644
+        e10: -0.9978344
+        e11: 0.058977105
+        e12: -0.04192009
+        e13: 0.000001312748
+        e20: -0.03902287
+        e21: -0.017710153
+        e22: 1.0990199
+        e23: 0.000004708331
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.61662227
+        e01: 0.78687483
+        e02: -0.024594385
+        e03: 0.029865902
+        e10: -0.786531
+        e11: 0.61709493
+        e12: 0.023751888
+        e13: 0.000013517646
+        e20: 0.033866722
+        e21: 0.0046982877
+        e22: 0.9994153
+        e23: 0.0000069528796
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 1.0000002
+        e01: -0.00000018888336
+        e02: -0.00000005037275
+        e03: 0.027799822
+        e10: -0.00000028552387
+        e11: 1.0000002
+        e12: -0.000000026536938
+        e13: -0.0050997846
+        e20: -0.000000025376488
+        e21: 0.000000007920394
+        e22: 1.0000001
+        e23: -0.0043000313
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      localRotations:
+      - {x: -0.36701584, y: 0.49818498, z: 0.706093, w: 0.34430185}
+      - {x: 0.0075835576, y: -0.019702528, z: 0.6878479, w: 0.7255478}
+      - {x: 0.006142151, y: -0.015112447, z: -0.4164234, w: -0.9090244}
+      - {x: 0.000000011654965, y: 0.000000005139949, z: -0.000000065945216, w: 0.99999994}
+    - poseRelativeMatrix:
+      - e00: -0.51293427
+        e01: 0.051665355
+        e02: -0.8568717
+        e03: 0.003038581
+        e10: 0.5903469
+        e11: 0.7459027
+        e12: -0.30841482
+        e13: 0.004342515
+        e20: 0.6232086
+        e21: -0.66404796
+        e22: -0.4130999
+        e23: -0.06393128
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.88313407
+        e01: 0.58980626
+        e02: -0.08696305
+        e03: 0.03910916
+        e10: -0.60047686
+        e11: 0.785896
+        e12: 0.2904724
+        e13: -0.0022512237
+        e20: 0.2636333
+        e21: -0.18573359
+        e22: 0.9529239
+        e23: 0.0019042997
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 0.52742016
+        e01: 0.84840655
+        e02: 0.04510649
+        e03: 0.040633164
+        e10: -0.84346384
+        e11: 0.52924156
+        e12: -0.09204883
+        e13: -0.00000344174
+        e20: -0.1019665
+        e21: 0.010502774
+        e22: 0.9947328
+        e23: -0.0000026951905
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      - e00: 1.0000001
+        e01: -0.00000023059
+        e02: 0.00000014872047
+        e03: 0.029174171
+        e10: -0.00000006956182
+        e11: 1.0000004
+        e12: 0.000000020638097
+        e13: -0.0067580654
+        e20: 0.0000003293494
+        e21: 0.000000036985014
+        e22: 1.0000006
+        e23: -0.003499978
+        e30: 0
+        e31: 0
+        e32: 0
+        e33: 1
+      localRotations:
+      - {x: -0.19638133, y: 0.81730306, z: -0.29746088, w: 0.45273298}
+      - {x: -0.12652038, y: 0.08678032, z: 0.30173618, w: 0.940966}
+      - {x: 0.02733377, y: -0.044642095, z: 0.50226015, w: 0.86313075}
+      - {x: 0.000000011710661, y: -0.000000031277995, z: -0.00000022894912, w: 1.0000001}
+    poseID:
+      fingerLengths:
+      - 0.00074386003
+      - 0.0012932001
+      - 0.0010291649
+      - 0.00081734
+      - 0.0009090537
+  leftPoseSet: 1
+  poseName: 
+  poseIndex: 1
+  showEditorTools: 1
+  editorHand: {fileID: 0}
+  poseScriptable: {fileID: 0}
+  poseEnabled: 1
+  singleHanded: 0
+  showAdvanced: 1
+  positionWeight: 1
+  rotationWeight: 1
+  linkedPoses: []
+--- !u!114 &361274906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361274903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 822bc9090447b9c40833509c4a32e597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoreMe: 0
+  body: {fileID: 0}
+  hightlightMaterial: {fileID: 0}
+  isGrabbable: 1
+  CopySettings: {fileID: 0}
+  grabType: 0
+  grabPoseType: 0
+  handType: 0
+  singleHandOnly: 1
+  instantGrab: 1
+  useGentleGrab: 0
+  maintainGrabOffset: 0
+  parentOnGrab: 1
+  heldNoFriction: 1
+  ignoreWeight: 0
+  allowHeldSwapping: 1
+  throwPower: 1
+  jointBreakForce: 1500
+  showAdvancedSettings: 1
+  makeChildrenGrabbable: 1
+  grabPriorityWeight: 1
+  ignoreReleaseTime: 0.25
+  minHeldDrag: 1.5
+  minHeldAngleDrag: 3
+  minHeldMass: 0.1
+  maxHeldVelocity: 10
+  heldPositionOffset: {x: 0, y: 0, z: 0}
+  heldRotationOffset: {x: 0, y: 30, z: 0}
+  customGrabJoint: {fileID: 0}
+  jointedBodies: []
+  heldIgnoreColliders: []
+  pullApartBreakOnly: 1
+  showEvents: 1
+  onGrab:
+    m_PersistentCalls:
+      m_Calls: []
+  onRelease:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 361274907}
+        m_TargetAssemblyTypeName: Vr.Test.Weapon.ClipBase, Assembly-CSharp
+        m_MethodName: AttachClip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onSqueeze:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnsqueeze:
+    m_PersistentCalls:
+      m_Calls: []
+  onHighlight:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnhighlight:
+    m_PersistentCalls:
+      m_Calls: []
+  OnJointBreak:
+    m_PersistentCalls:
+      m_Calls: []
+  lockHandOnGrab: 0
+--- !u!114 &361274907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361274903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0738d417baf043d448351b56cb883c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rounds: 12
+--- !u!54 &361274908
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361274903}
+  serializedVersion: 4
+  m_Mass: 0.5
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!23 &361274909
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361274903}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 786c7caa508d1f344a2b05806f53730c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &361274910
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361274903}
+  m_Mesh: {fileID: -3329902420748629119, guid: 152c449fcbb079049a38e5953ab3376b, type: 3}
+--- !u!4 &361274911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361274903}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.145, y: 1.08, z: -0.281}
+  m_LocalScale: {x: 0.7500002, y: 0.7500002, z: 0.7500002}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,6 +1659,114 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &744450965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 744450969}
+  - component: {fileID: 744450968}
+  - component: {fileID: 744450967}
+  - component: {fileID: 744450966}
+  m_Layer: 0
+  m_Name: Wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &744450966
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744450965}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &744450967
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744450965}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &744450968
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744450965}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &744450969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744450965}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.19319989, y: 0.90765804, z: 6.41}
+  m_LocalScale: {x: 100, y: 100, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,8 +4034,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.28393286, y: 0.04422962, z: 0.034281965}
-  m_Center: {x: 0.0443476, y: 0.012114803, z: 0}
+  m_Size: {x: 0.28393286, y: 0.14451034, z: 0.034281965}
+  m_Center: {x: 0.044347595, y: 0.06225519, z: -3.5385193e-15}
 --- !u!65 &4568407161581493691
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7989,4 +9084,6 @@ SceneRoots:
   - {fileID: 464599367}
   - {fileID: 34163319}
   - {fileID: 7923620045911860190}
+  - {fileID: 361274911}
   - {fileID: 4101802235122360280}
+  - {fileID: 744450969}

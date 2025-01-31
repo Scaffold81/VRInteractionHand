@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DFBC8480-4523-851F-E156-BB97E145F9AF}</ProjectGuid>
+    <ProjectGuid>{FA494C82-A7F0-9A25-C16A-1983B6BDA339}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Management</AssemblyName>
@@ -864,7 +864,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{32DCEC92-2D9C-836D-8C31-9B9D9C7A6011}</Project>
+      <Project>{F502A06E-F649-2C36-3771-7159B0EAC675}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

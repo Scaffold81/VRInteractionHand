@@ -20,7 +20,7 @@ namespace Vr.Test.Weapon
         public UnityAmmoEvent OnAmmoPlaceEvent;
         public UnityAmmoEvent OnAmmoRemoveEvent;
         public UnityPistolBoltEvent OnBoltEvent;
-        
+
         private bool _magazineIsEmpty;
         private bool _cartridgeInChamber;
 
@@ -42,22 +42,24 @@ namespace Vr.Test.Weapon
         }
         public void Reload()
         {
-            if(_ammoMagazine == null)return;
+            if (_ammoMagazine == null) return;
 
-            _ammoMagazine.RemoveRound();
-            if (!_magazineIsEmpty) 
+            _magazineIsEmpty = _ammoMagazine.RemoveRound();
+            print("_magazineIsEmpty " + _magazineIsEmpty);
+            if (!_magazineIsEmpty)
                 _cartridgeInChamber = true;
         }
 
         public virtual void Shoot()
         {
-           if(!_cartridgeInChamber) return;
+            if (!_cartridgeInChamber) return;
 
             RaycastHit hit;
             if (Physics.Raycast(_barrelPoint.transform.position, _barrelPoint.transform.forward, out hit))
             {
                 print($"{hit.collider.name} {hit.point}");
             }
+            _cartridgeInChamber = false;
             Reload();
         }
 

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Autohand</RootNamespace>
-    <ProjectGuid>{C4256F9A-6454-0ECD-EBC6-D3CD58AEA7F1}</ProjectGuid>
+    <ProjectGuid>{0B094AFF-9301-384A-6806-13BEAA935CEA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AutoHandAssembly</AssemblyName>
@@ -1009,15 +1009,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NaughtyAttributes.Core.Player.csproj">
-      <Project>{77E27503-E675-9C9C-81D3-93E663EDE055}</Project>
+      <Project>{7A2AA643-6CA3-3485-9FBC-F14F86246AAD}</Project>
       <Name>NaughtyAttributes.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{D80312AC-C0D7-7133-323F-E5C4F37C2756}</Project>
+      <Project>{31950345-048C-6385-AF56-D3DEBBBCEA39}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{32DCEC92-2D9C-836D-8C31-9B9D9C7A6011}</Project>
+      <Project>{F502A06E-F649-2C36-3771-7159B0EAC675}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

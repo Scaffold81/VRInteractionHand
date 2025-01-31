@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7AE47C2F-C79D-4670-A3F5-79C1A550FE53}</ProjectGuid>
+    <ProjectGuid>{729DFF2E-AEFB-E339-9C49-1C782911B8B3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Oculus</AssemblyName>
@@ -876,15 +876,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{DFBC8480-4523-851F-E156-BB97E145F9AF}</Project>
+      <Project>{FA494C82-A7F0-9A25-C16A-1983B6BDA339}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{0829E1DB-94B6-0E6D-5A86-DE79E1A7C6AB}</Project>
+      <Project>{C4E4BAE1-BC45-7AAF-35C1-72ABB6205610}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{32DCEC92-2D9C-836D-8C31-9B9D9C7A6011}</Project>
+      <Project>{F502A06E-F649-2C36-3771-7159B0EAC675}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

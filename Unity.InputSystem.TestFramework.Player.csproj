@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C0EF5D08-2C1C-E8F7-9911-065CAE2E325A}</ProjectGuid>
+    <ProjectGuid>{2340ADBE-8F0A-5C5F-FC03-1370ED9957C1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.InputSystem.TestFramework</AssemblyName>
@@ -855,15 +855,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{0829E1DB-94B6-0E6D-5A86-DE79E1A7C6AB}</Project>
+      <Project>{C4E4BAE1-BC45-7AAF-35C1-72ABB6205610}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.Player.csproj">
-      <Project>{6A546258-C9B8-A8CC-185C-BCEFFBEBDD3B}</Project>
+      <Project>{250292F7-C4D2-8A8A-ED1A-74E537591681}</Project>
       <Name>UnityEngine.TestRunner.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{32DCEC92-2D9C-836D-8C31-9B9D9C7A6011}</Project>
+      <Project>{F502A06E-F649-2C36-3771-7159B0EAC675}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

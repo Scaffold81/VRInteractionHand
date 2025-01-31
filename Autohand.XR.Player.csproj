@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{17FEA05C-7273-94DE-F752-4806CB86DFC8}</ProjectGuid>
+    <ProjectGuid>{224B0F37-F87D-796C-A169-A5794FB43721}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Autohand.XR</AssemblyName>
@@ -867,11 +867,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AutoHandAssembly.Player.csproj">
-      <Project>{C4256F9A-6454-0ECD-EBC6-D3CD58AEA7F1}</Project>
+      <Project>{0B094AFF-9301-384A-6806-13BEAA935CEA}</Project>
       <Name>AutoHandAssembly.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{32DCEC92-2D9C-836D-8C31-9B9D9C7A6011}</Project>
+      <Project>{F502A06E-F649-2C36-3771-7159B0EAC675}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EE6C0F75-76DD-743C-FE64-AD81DDC9F352}</ProjectGuid>
+    <ProjectGuid>{9214B69B-2168-BE4B-F5DE-A74984DD857B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.AI.Navigation.Updater</AssemblyName>
@@ -1130,31 +1130,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.AI.Navigation.csproj">
-      <Project>{18AD8DF5-8838-CF0F-33AE-0FAC248DDF67}</Project>
+      <Project>{E6861C99-DE14-A47B-5D6C-F10AF8CE84A1}</Project>
       <Name>Unity.AI.Navigation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
-      <Project>{37A63458-1114-5C4D-6E82-70C9634CBD42}</Project>
+      <Project>{DCF110B3-D320-8958-DC43-73A47879BE74}</Project>
       <Name>Unity.AI.Navigation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
-      <Project>{AA29421D-B005-7F1C-05AA-09C107B2DAF5}</Project>
+      <Project>{9A0FA1CF-2C1F-A75B-1AF0-329C822672B6}</Project>
       <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{21314CD4-69F4-85ED-42CE-84031E30FAE7}</Project>
+      <Project>{F5C303BC-775B-A801-C133-508832442148}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{97EC7633-89FB-0AD5-27D2-77B63694CE21}</Project>
+      <Project>{FE57527C-F3C4-21AC-4CB5-3B78D4E5C392}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{95785325-4F20-60B2-C160-84F24D45093D}</Project>
+      <Project>{66799FA4-CDE5-AF7C-BC3F-8D336918C123}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{BA4B90F0-48A5-BDAB-B668-8567407A5113}</Project>
+      <Project>{0E433612-63D4-8F6E-B181-82BEEA8742BB}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

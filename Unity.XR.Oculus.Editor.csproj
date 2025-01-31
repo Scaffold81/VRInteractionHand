@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4CF7544D-ED1A-6D13-BC34-B48CB05B6CA9}</ProjectGuid>
+    <ProjectGuid>{1FC9F299-1518-684A-53B0-DCF66044B70E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Oculus.Editor</AssemblyName>
@@ -1129,31 +1129,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Oculus.csproj">
-      <Project>{CB1F5D46-E45E-3DA6-2842-837671E6AD58}</Project>
+      <Project>{E5121D82-D03C-8431-1E56-84EBEEE28D07}</Project>
       <Name>Unity.XR.Oculus</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{CE0AC0D9-CB76-9DC9-91D2-3C8BC428F309}</Project>
+      <Project>{AD71FE63-712A-993D-D228-A1E0E7F5BD1E}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{6069D3F1-EB7B-AE10-36A4-04F3C7E3F590}</Project>
+      <Project>{651887CA-BFB6-91D8-6D16-A51B17BF33D5}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{21314CD4-69F4-85ED-42CE-84031E30FAE7}</Project>
+      <Project>{F5C303BC-775B-A801-C133-508832442148}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{97EC7633-89FB-0AD5-27D2-77B63694CE21}</Project>
+      <Project>{FE57527C-F3C4-21AC-4CB5-3B78D4E5C392}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{95785325-4F20-60B2-C160-84F24D45093D}</Project>
+      <Project>{66799FA4-CDE5-AF7C-BC3F-8D336918C123}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{BA4B90F0-48A5-BDAB-B668-8567407A5113}</Project>
+      <Project>{0E433612-63D4-8F6E-B181-82BEEA8742BB}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
